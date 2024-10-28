@@ -89,7 +89,7 @@ class _TaskListPageState extends State<TaskListPage> {
 
 
 class _TaskItem extends StatelessWidget {
-  const _TaskItem(this.task, {super.key, this.onTap});
+  const _TaskItem(this.task, {this.onTap});
   final Task task;
   final VoidCallback? onTap;
 
